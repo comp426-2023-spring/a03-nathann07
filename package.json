@@ -8,6 +8,10 @@
   },
   "author": "nathann07",
   "license": "MIT",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
+  },
   "dependencies": {
     "minimist": "^1.2.8"
   }
